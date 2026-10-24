@@ -1,0 +1,601 @@
+method,error_type,recall,err_rate,seed
+IQR rules,negative_quantity,1.0,0.01,0
+IQR rules,magnitude_shift,0.9,0.01,0
+IQR rules,sentinel_code,0.7,0.01,0
+IQR rules,impossible_age,1.0,0.01,0
+IQR rules,total_tampered,0.2,0.01,0
+Isolation Forest (plain),negative_quantity,0.0,0.01,0
+Isolation Forest (plain),magnitude_shift,0.6,0.01,0
+Isolation Forest (plain),sentinel_code,0.3,0.01,0
+Isolation Forest (plain),impossible_age,0.5,0.01,0
+Isolation Forest (plain),total_tampered,0.1,0.01,0
+Isolation Forest (oracle rate),negative_quantity,0.0,0.01,0
+Isolation Forest (oracle rate),magnitude_shift,0.1,0.01,0
+Isolation Forest (oracle rate),sentinel_code,0.0,0.01,0
+Isolation Forest (oracle rate),impossible_age,0.0,0.01,0
+Isolation Forest (oracle rate),total_tampered,0.0,0.01,0
+LOF (plain),negative_quantity,1.0,0.01,0
+LOF (plain),magnitude_shift,0.9,0.01,0
+LOF (plain),sentinel_code,1.0,0.01,0
+LOF (plain),impossible_age,1.0,0.01,0
+LOF (plain),total_tampered,0.2,0.01,0
+DataDoctor w/o relationships,negative_quantity,1.0,0.01,0
+DataDoctor w/o relationships,magnitude_shift,0.9,0.01,0
+DataDoctor w/o relationships,sentinel_code,1.0,0.01,0
+DataDoctor w/o relationships,impossible_age,1.0,0.01,0
+DataDoctor w/o relationships,total_tampered,0.0,0.01,0
+DataDoctor (combined),negative_quantity,1.0,0.01,0
+DataDoctor (combined),magnitude_shift,1.0,0.01,0
+DataDoctor (combined),sentinel_code,1.0,0.01,0
+DataDoctor (combined),impossible_age,1.0,0.01,0
+DataDoctor (combined),total_tampered,1.0,0.01,0
+IQR rules,negative_quantity,1.0,0.01,1
+IQR rules,magnitude_shift,0.8,0.01,1
+IQR rules,sentinel_code,0.9,0.01,1
+IQR rules,impossible_age,1.0,0.01,1
+IQR rules,total_tampered,0.0,0.01,1
+Isolation Forest (plain),negative_quantity,0.1,0.01,1
+Isolation Forest (plain),magnitude_shift,0.8,0.01,1
+Isolation Forest (plain),sentinel_code,0.4,0.01,1
+Isolation Forest (plain),impossible_age,0.5,0.01,1
+Isolation Forest (plain),total_tampered,0.0,0.01,1
+Isolation Forest (oracle rate),negative_quantity,0.0,0.01,1
+Isolation Forest (oracle rate),magnitude_shift,0.0,0.01,1
+Isolation Forest (oracle rate),sentinel_code,0.0,0.01,1
+Isolation Forest (oracle rate),impossible_age,0.0,0.01,1
+Isolation Forest (oracle rate),total_tampered,0.0,0.01,1
+LOF (plain),negative_quantity,1.0,0.01,1
+LOF (plain),magnitude_shift,1.0,0.01,1
+LOF (plain),sentinel_code,0.9,0.01,1
+LOF (plain),impossible_age,1.0,0.01,1
+LOF (plain),total_tampered,0.4,0.01,1
+DataDoctor w/o relationships,negative_quantity,1.0,0.01,1
+DataDoctor w/o relationships,magnitude_shift,0.8,0.01,1
+DataDoctor w/o relationships,sentinel_code,1.0,0.01,1
+DataDoctor w/o relationships,impossible_age,1.0,0.01,1
+DataDoctor w/o relationships,total_tampered,0.0,0.01,1
+DataDoctor (combined),negative_quantity,1.0,0.01,1
+DataDoctor (combined),magnitude_shift,1.0,0.01,1
+DataDoctor (combined),sentinel_code,1.0,0.01,1
+DataDoctor (combined),impossible_age,1.0,0.01,1
+DataDoctor (combined),total_tampered,1.0,0.01,1
+IQR rules,negative_quantity,1.0,0.01,2
+IQR rules,magnitude_shift,0.8,0.01,2
+IQR rules,sentinel_code,0.7,0.01,2
+IQR rules,impossible_age,1.0,0.01,2
+IQR rules,total_tampered,0.3,0.01,2
+Isolation Forest (plain),negative_quantity,0.1,0.01,2
+Isolation Forest (plain),magnitude_shift,0.6,0.01,2
+Isolation Forest (plain),sentinel_code,0.3,0.01,2
+Isolation Forest (plain),impossible_age,0.5,0.01,2
+Isolation Forest (plain),total_tampered,0.1,0.01,2
+Isolation Forest (oracle rate),negative_quantity,0.0,0.01,2
+Isolation Forest (oracle rate),magnitude_shift,0.0,0.01,2
+Isolation Forest (oracle rate),sentinel_code,0.0,0.01,2
+Isolation Forest (oracle rate),impossible_age,0.0,0.01,2
+Isolation Forest (oracle rate),total_tampered,0.0,0.01,2
+LOF (plain),negative_quantity,1.0,0.01,2
+LOF (plain),magnitude_shift,1.0,0.01,2
+LOF (plain),sentinel_code,0.7,0.01,2
+LOF (plain),impossible_age,1.0,0.01,2
+LOF (plain),total_tampered,0.7,0.01,2
+DataDoctor w/o relationships,negative_quantity,1.0,0.01,2
+DataDoctor w/o relationships,magnitude_shift,1.0,0.01,2
+DataDoctor w/o relationships,sentinel_code,1.0,0.01,2
+DataDoctor w/o relationships,impossible_age,1.0,0.01,2
+DataDoctor w/o relationships,total_tampered,0.0,0.01,2
+DataDoctor (combined),negative_quantity,1.0,0.01,2
+DataDoctor (combined),magnitude_shift,1.0,0.01,2
+DataDoctor (combined),sentinel_code,1.0,0.01,2
+DataDoctor (combined),impossible_age,1.0,0.01,2
+DataDoctor (combined),total_tampered,1.0,0.01,2
+IQR rules,negative_quantity,1.0,0.01,3
+IQR rules,magnitude_shift,0.9,0.01,3
+IQR rules,sentinel_code,0.9,0.01,3
+IQR rules,impossible_age,1.0,0.01,3
+IQR rules,total_tampered,0.0,0.01,3
+Isolation Forest (plain),negative_quantity,0.1,0.01,3
+Isolation Forest (plain),magnitude_shift,0.5,0.01,3
+Isolation Forest (plain),sentinel_code,0.6,0.01,3
+Isolation Forest (plain),impossible_age,0.1,0.01,3
+Isolation Forest (plain),total_tampered,0.0,0.01,3
+Isolation Forest (oracle rate),negative_quantity,0.0,0.01,3
+Isolation Forest (oracle rate),magnitude_shift,0.0,0.01,3
+Isolation Forest (oracle rate),sentinel_code,0.0,0.01,3
+Isolation Forest (oracle rate),impossible_age,0.0,0.01,3
+Isolation Forest (oracle rate),total_tampered,0.0,0.01,3
+LOF (plain),negative_quantity,1.0,0.01,3
+LOF (plain),magnitude_shift,0.9,0.01,3
+LOF (plain),sentinel_code,1.0,0.01,3
+LOF (plain),impossible_age,1.0,0.01,3
+LOF (plain),total_tampered,0.1,0.01,3
+DataDoctor w/o relationships,negative_quantity,1.0,0.01,3
+DataDoctor w/o relationships,magnitude_shift,0.8,0.01,3
+DataDoctor w/o relationships,sentinel_code,1.0,0.01,3
+DataDoctor w/o relationships,impossible_age,1.0,0.01,3
+DataDoctor w/o relationships,total_tampered,0.0,0.01,3
+DataDoctor (combined),negative_quantity,1.0,0.01,3
+DataDoctor (combined),magnitude_shift,1.0,0.01,3
+DataDoctor (combined),sentinel_code,1.0,0.01,3
+DataDoctor (combined),impossible_age,1.0,0.01,3
+DataDoctor (combined),total_tampered,1.0,0.01,3
+IQR rules,negative_quantity,1.0,0.01,4
+IQR rules,magnitude_shift,0.9,0.01,4
+IQR rules,sentinel_code,1.0,0.01,4
+IQR rules,impossible_age,1.0,0.01,4
+IQR rules,total_tampered,0.3,0.01,4
+Isolation Forest (plain),negative_quantity,0.2,0.01,4
+Isolation Forest (plain),magnitude_shift,0.6,0.01,4
+Isolation Forest (plain),sentinel_code,0.6,0.01,4
+Isolation Forest (plain),impossible_age,0.4,0.01,4
+Isolation Forest (plain),total_tampered,0.0,0.01,4
+Isolation Forest (oracle rate),negative_quantity,0.0,0.01,4
+Isolation Forest (oracle rate),magnitude_shift,0.0,0.01,4
+Isolation Forest (oracle rate),sentinel_code,0.1,0.01,4
+Isolation Forest (oracle rate),impossible_age,0.0,0.01,4
+Isolation Forest (oracle rate),total_tampered,0.0,0.01,4
+LOF (plain),negative_quantity,1.0,0.01,4
+LOF (plain),magnitude_shift,1.0,0.01,4
+LOF (plain),sentinel_code,1.0,0.01,4
+LOF (plain),impossible_age,1.0,0.01,4
+LOF (plain),total_tampered,0.2,0.01,4
+DataDoctor w/o relationships,negative_quantity,1.0,0.01,4
+DataDoctor w/o relationships,magnitude_shift,0.9,0.01,4
+DataDoctor w/o relationships,sentinel_code,1.0,0.01,4
+DataDoctor w/o relationships,impossible_age,1.0,0.01,4
+DataDoctor w/o relationships,total_tampered,0.0,0.01,4
+DataDoctor (combined),negative_quantity,1.0,0.01,4
+DataDoctor (combined),magnitude_shift,1.0,0.01,4
+DataDoctor (combined),sentinel_code,1.0,0.01,4
+DataDoctor (combined),impossible_age,1.0,0.01,4
+DataDoctor (combined),total_tampered,1.0,0.01,4
+IQR rules,negative_quantity,1.0,0.03,0
+IQR rules,magnitude_shift,0.9333333333333333,0.03,0
+IQR rules,sentinel_code,0.8666666666666667,0.03,0
+IQR rules,impossible_age,1.0,0.03,0
+IQR rules,total_tampered,0.26666666666666666,0.03,0
+Isolation Forest (plain),negative_quantity,0.03333333333333333,0.03,0
+Isolation Forest (plain),magnitude_shift,0.6333333333333333,0.03,0
+Isolation Forest (plain),sentinel_code,0.6666666666666666,0.03,0
+Isolation Forest (plain),impossible_age,0.6333333333333333,0.03,0
+Isolation Forest (plain),total_tampered,0.1,0.03,0
+Isolation Forest (oracle rate),negative_quantity,0.0,0.03,0
+Isolation Forest (oracle rate),magnitude_shift,0.36666666666666664,0.03,0
+Isolation Forest (oracle rate),sentinel_code,0.5,0.03,0
+Isolation Forest (oracle rate),impossible_age,0.26666666666666666,0.03,0
+Isolation Forest (oracle rate),total_tampered,0.0,0.03,0
+LOF (plain),negative_quantity,0.4,0.03,0
+LOF (plain),magnitude_shift,0.8666666666666667,0.03,0
+LOF (plain),sentinel_code,0.9,0.03,0
+LOF (plain),impossible_age,0.7333333333333333,0.03,0
+LOF (plain),total_tampered,0.3,0.03,0
+DataDoctor w/o relationships,negative_quantity,1.0,0.03,0
+DataDoctor w/o relationships,magnitude_shift,0.9666666666666667,0.03,0
+DataDoctor w/o relationships,sentinel_code,1.0,0.03,0
+DataDoctor w/o relationships,impossible_age,1.0,0.03,0
+DataDoctor w/o relationships,total_tampered,0.03333333333333333,0.03,0
+DataDoctor (combined),negative_quantity,1.0,0.03,0
+DataDoctor (combined),magnitude_shift,1.0,0.03,0
+DataDoctor (combined),sentinel_code,1.0,0.03,0
+DataDoctor (combined),impossible_age,1.0,0.03,0
+DataDoctor (combined),total_tampered,1.0,0.03,0
+IQR rules,negative_quantity,1.0,0.03,1
+IQR rules,magnitude_shift,0.8666666666666667,0.03,1
+IQR rules,sentinel_code,0.7666666666666667,0.03,1
+IQR rules,impossible_age,1.0,0.03,1
+IQR rules,total_tampered,0.16666666666666666,0.03,1
+Isolation Forest (plain),negative_quantity,0.03333333333333333,0.03,1
+Isolation Forest (plain),magnitude_shift,0.5,0.03,1
+Isolation Forest (plain),sentinel_code,0.5333333333333333,0.03,1
+Isolation Forest (plain),impossible_age,0.4,0.03,1
+Isolation Forest (plain),total_tampered,0.03333333333333333,0.03,1
+Isolation Forest (oracle rate),negative_quantity,0.0,0.03,1
+Isolation Forest (oracle rate),magnitude_shift,0.43333333333333335,0.03,1
+Isolation Forest (oracle rate),sentinel_code,0.5,0.03,1
+Isolation Forest (oracle rate),impossible_age,0.1,0.03,1
+Isolation Forest (oracle rate),total_tampered,0.0,0.03,1
+LOF (plain),negative_quantity,0.4,0.03,1
+LOF (plain),magnitude_shift,0.9,0.03,1
+LOF (plain),sentinel_code,0.8666666666666667,0.03,1
+LOF (plain),impossible_age,0.36666666666666664,0.03,1
+LOF (plain),total_tampered,0.3,0.03,1
+DataDoctor w/o relationships,negative_quantity,1.0,0.03,1
+DataDoctor w/o relationships,magnitude_shift,0.8666666666666667,0.03,1
+DataDoctor w/o relationships,sentinel_code,0.9666666666666667,0.03,1
+DataDoctor w/o relationships,impossible_age,1.0,0.03,1
+DataDoctor w/o relationships,total_tampered,0.0,0.03,1
+DataDoctor (combined),negative_quantity,1.0,0.03,1
+DataDoctor (combined),magnitude_shift,1.0,0.03,1
+DataDoctor (combined),sentinel_code,1.0,0.03,1
+DataDoctor (combined),impossible_age,1.0,0.03,1
+DataDoctor (combined),total_tampered,1.0,0.03,1
+IQR rules,negative_quantity,1.0,0.03,2
+IQR rules,magnitude_shift,0.9666666666666667,0.03,2
+IQR rules,sentinel_code,0.7,0.03,2
+IQR rules,impossible_age,1.0,0.03,2
+IQR rules,total_tampered,0.26666666666666666,0.03,2
+Isolation Forest (plain),negative_quantity,0.1,0.03,2
+Isolation Forest (plain),magnitude_shift,0.6666666666666666,0.03,2
+Isolation Forest (plain),sentinel_code,0.6,0.03,2
+Isolation Forest (plain),impossible_age,0.7,0.03,2
+Isolation Forest (plain),total_tampered,0.06666666666666667,0.03,2
+Isolation Forest (oracle rate),negative_quantity,0.0,0.03,2
+Isolation Forest (oracle rate),magnitude_shift,0.4,0.03,2
+Isolation Forest (oracle rate),sentinel_code,0.3333333333333333,0.03,2
+Isolation Forest (oracle rate),impossible_age,0.4,0.03,2
+Isolation Forest (oracle rate),total_tampered,0.03333333333333333,0.03,2
+LOF (plain),negative_quantity,0.6666666666666666,0.03,2
+LOF (plain),magnitude_shift,0.8333333333333334,0.03,2
+LOF (plain),sentinel_code,0.7666666666666667,0.03,2
+LOF (plain),impossible_age,0.8333333333333334,0.03,2
+LOF (plain),total_tampered,0.3,0.03,2
+DataDoctor w/o relationships,negative_quantity,1.0,0.03,2
+DataDoctor w/o relationships,magnitude_shift,0.9333333333333333,0.03,2
+DataDoctor w/o relationships,sentinel_code,0.9333333333333333,0.03,2
+DataDoctor w/o relationships,impossible_age,1.0,0.03,2
+DataDoctor w/o relationships,total_tampered,0.03333333333333333,0.03,2
+DataDoctor (combined),negative_quantity,1.0,0.03,2
+DataDoctor (combined),magnitude_shift,0.9666666666666667,0.03,2
+DataDoctor (combined),sentinel_code,1.0,0.03,2
+DataDoctor (combined),impossible_age,1.0,0.03,2
+DataDoctor (combined),total_tampered,1.0,0.03,2
+IQR rules,negative_quantity,1.0,0.03,3
+IQR rules,magnitude_shift,0.8333333333333334,0.03,3
+IQR rules,sentinel_code,0.8666666666666667,0.03,3
+IQR rules,impossible_age,1.0,0.03,3
+IQR rules,total_tampered,0.2,0.03,3
+Isolation Forest (plain),negative_quantity,0.06666666666666667,0.03,3
+Isolation Forest (plain),magnitude_shift,0.4666666666666667,0.03,3
+Isolation Forest (plain),sentinel_code,0.7,0.03,3
+Isolation Forest (plain),impossible_age,0.13333333333333333,0.03,3
+Isolation Forest (plain),total_tampered,0.06666666666666667,0.03,3
+Isolation Forest (oracle rate),negative_quantity,0.03333333333333333,0.03,3
+Isolation Forest (oracle rate),magnitude_shift,0.23333333333333334,0.03,3
+Isolation Forest (oracle rate),sentinel_code,0.4,0.03,3
+Isolation Forest (oracle rate),impossible_age,0.06666666666666667,0.03,3
+Isolation Forest (oracle rate),total_tampered,0.0,0.03,3
+LOF (plain),negative_quantity,0.4,0.03,3
+LOF (plain),magnitude_shift,0.8,0.03,3
+LOF (plain),sentinel_code,0.9,0.03,3
+LOF (plain),impossible_age,1.0,0.03,3
+LOF (plain),total_tampered,0.3333333333333333,0.03,3
+DataDoctor w/o relationships,negative_quantity,1.0,0.03,3
+DataDoctor w/o relationships,magnitude_shift,0.7666666666666667,0.03,3
+DataDoctor w/o relationships,sentinel_code,1.0,0.03,3
+DataDoctor w/o relationships,impossible_age,1.0,0.03,3
+DataDoctor w/o relationships,total_tampered,0.0,0.03,3
+DataDoctor (combined),negative_quantity,1.0,0.03,3
+DataDoctor (combined),magnitude_shift,1.0,0.03,3
+DataDoctor (combined),sentinel_code,1.0,0.03,3
+DataDoctor (combined),impossible_age,1.0,0.03,3
+DataDoctor (combined),total_tampered,1.0,0.03,3
+IQR rules,negative_quantity,1.0,0.03,4
+IQR rules,magnitude_shift,0.9,0.03,4
+IQR rules,sentinel_code,0.8,0.03,4
+IQR rules,impossible_age,1.0,0.03,4
+IQR rules,total_tampered,0.23333333333333334,0.03,4
+Isolation Forest (plain),negative_quantity,0.03333333333333333,0.03,4
+Isolation Forest (plain),magnitude_shift,0.5,0.03,4
+Isolation Forest (plain),sentinel_code,0.4666666666666667,0.03,4
+Isolation Forest (plain),impossible_age,0.7,0.03,4
+Isolation Forest (plain),total_tampered,0.13333333333333333,0.03,4
+Isolation Forest (oracle rate),negative_quantity,0.03333333333333333,0.03,4
+Isolation Forest (oracle rate),magnitude_shift,0.4,0.03,4
+Isolation Forest (oracle rate),sentinel_code,0.43333333333333335,0.03,4
+Isolation Forest (oracle rate),impossible_age,0.3333333333333333,0.03,4
+Isolation Forest (oracle rate),total_tampered,0.1,0.03,4
+LOF (plain),negative_quantity,0.4,0.03,4
+LOF (plain),magnitude_shift,0.9666666666666667,0.03,4
+LOF (plain),sentinel_code,0.8,0.03,4
+LOF (plain),impossible_age,0.8333333333333334,0.03,4
+LOF (plain),total_tampered,0.4,0.03,4
+DataDoctor w/o relationships,negative_quantity,1.0,0.03,4
+DataDoctor w/o relationships,magnitude_shift,0.9333333333333333,0.03,4
+DataDoctor w/o relationships,sentinel_code,0.9666666666666667,0.03,4
+DataDoctor w/o relationships,impossible_age,1.0,0.03,4
+DataDoctor w/o relationships,total_tampered,0.03333333333333333,0.03,4
+DataDoctor (combined),negative_quantity,1.0,0.03,4
+DataDoctor (combined),magnitude_shift,0.9666666666666667,0.03,4
+DataDoctor (combined),sentinel_code,1.0,0.03,4
+DataDoctor (combined),impossible_age,1.0,0.03,4
+DataDoctor (combined),total_tampered,1.0,0.03,4
+IQR rules,negative_quantity,1.0,0.05,0
+IQR rules,magnitude_shift,0.94,0.05,0
+IQR rules,sentinel_code,0.76,0.05,0
+IQR rules,impossible_age,1.0,0.05,0
+IQR rules,total_tampered,0.2,0.05,0
+Isolation Forest (plain),negative_quantity,0.06,0.05,0
+Isolation Forest (plain),magnitude_shift,0.68,0.05,0
+Isolation Forest (plain),sentinel_code,0.6,0.05,0
+Isolation Forest (plain),impossible_age,0.58,0.05,0
+Isolation Forest (plain),total_tampered,0.06,0.05,0
+Isolation Forest (oracle rate),negative_quantity,0.06,0.05,0
+Isolation Forest (oracle rate),magnitude_shift,0.66,0.05,0
+Isolation Forest (oracle rate),sentinel_code,0.6,0.05,0
+Isolation Forest (oracle rate),impossible_age,0.58,0.05,0
+Isolation Forest (oracle rate),total_tampered,0.06,0.05,0
+LOF (plain),negative_quantity,0.46,0.05,0
+LOF (plain),magnitude_shift,0.94,0.05,0
+LOF (plain),sentinel_code,0.84,0.05,0
+LOF (plain),impossible_age,0.26,0.05,0
+LOF (plain),total_tampered,0.28,0.05,0
+DataDoctor w/o relationships,negative_quantity,1.0,0.05,0
+DataDoctor w/o relationships,magnitude_shift,0.9,0.05,0
+DataDoctor w/o relationships,sentinel_code,1.0,0.05,0
+DataDoctor w/o relationships,impossible_age,1.0,0.05,0
+DataDoctor w/o relationships,total_tampered,0.0,0.05,0
+DataDoctor (combined),negative_quantity,1.0,0.05,0
+DataDoctor (combined),magnitude_shift,1.0,0.05,0
+DataDoctor (combined),sentinel_code,1.0,0.05,0
+DataDoctor (combined),impossible_age,1.0,0.05,0
+DataDoctor (combined),total_tampered,1.0,0.05,0
+IQR rules,negative_quantity,1.0,0.05,1
+IQR rules,magnitude_shift,0.86,0.05,1
+IQR rules,sentinel_code,0.94,0.05,1
+IQR rules,impossible_age,1.0,0.05,1
+IQR rules,total_tampered,0.22,0.05,1
+Isolation Forest (plain),negative_quantity,0.04,0.05,1
+Isolation Forest (plain),magnitude_shift,0.6,0.05,1
+Isolation Forest (plain),sentinel_code,0.78,0.05,1
+Isolation Forest (plain),impossible_age,0.46,0.05,1
+Isolation Forest (plain),total_tampered,0.08,0.05,1
+Isolation Forest (oracle rate),negative_quantity,0.04,0.05,1
+Isolation Forest (oracle rate),magnitude_shift,0.58,0.05,1
+Isolation Forest (oracle rate),sentinel_code,0.78,0.05,1
+Isolation Forest (oracle rate),impossible_age,0.46,0.05,1
+Isolation Forest (oracle rate),total_tampered,0.08,0.05,1
+LOF (plain),negative_quantity,0.36,0.05,1
+LOF (plain),magnitude_shift,0.9,0.05,1
+LOF (plain),sentinel_code,0.94,0.05,1
+LOF (plain),impossible_age,0.54,0.05,1
+LOF (plain),total_tampered,0.46,0.05,1
+DataDoctor w/o relationships,negative_quantity,1.0,0.05,1
+DataDoctor w/o relationships,magnitude_shift,0.9,0.05,1
+DataDoctor w/o relationships,sentinel_code,1.0,0.05,1
+DataDoctor w/o relationships,impossible_age,1.0,0.05,1
+DataDoctor w/o relationships,total_tampered,0.0,0.05,1
+DataDoctor (combined),negative_quantity,1.0,0.05,1
+DataDoctor (combined),magnitude_shift,1.0,0.05,1
+DataDoctor (combined),sentinel_code,1.0,0.05,1
+DataDoctor (combined),impossible_age,1.0,0.05,1
+DataDoctor (combined),total_tampered,1.0,0.05,1
+IQR rules,negative_quantity,1.0,0.05,2
+IQR rules,magnitude_shift,0.94,0.05,2
+IQR rules,sentinel_code,0.88,0.05,2
+IQR rules,impossible_age,1.0,0.05,2
+IQR rules,total_tampered,0.36,0.05,2
+Isolation Forest (plain),negative_quantity,0.04,0.05,2
+Isolation Forest (plain),magnitude_shift,0.64,0.05,2
+Isolation Forest (plain),sentinel_code,0.66,0.05,2
+Isolation Forest (plain),impossible_age,0.62,0.05,2
+Isolation Forest (plain),total_tampered,0.1,0.05,2
+Isolation Forest (oracle rate),negative_quantity,0.02,0.05,2
+Isolation Forest (oracle rate),magnitude_shift,0.62,0.05,2
+Isolation Forest (oracle rate),sentinel_code,0.62,0.05,2
+Isolation Forest (oracle rate),impossible_age,0.6,0.05,2
+Isolation Forest (oracle rate),total_tampered,0.1,0.05,2
+LOF (plain),negative_quantity,0.38,0.05,2
+LOF (plain),magnitude_shift,0.98,0.05,2
+LOF (plain),sentinel_code,0.9,0.05,2
+LOF (plain),impossible_age,0.2,0.05,2
+LOF (plain),total_tampered,0.4,0.05,2
+DataDoctor w/o relationships,negative_quantity,1.0,0.05,2
+DataDoctor w/o relationships,magnitude_shift,0.92,0.05,2
+DataDoctor w/o relationships,sentinel_code,0.98,0.05,2
+DataDoctor w/o relationships,impossible_age,1.0,0.05,2
+DataDoctor w/o relationships,total_tampered,0.0,0.05,2
+DataDoctor (combined),negative_quantity,1.0,0.05,2
+DataDoctor (combined),magnitude_shift,1.0,0.05,2
+DataDoctor (combined),sentinel_code,1.0,0.05,2
+DataDoctor (combined),impossible_age,1.0,0.05,2
+DataDoctor (combined),total_tampered,1.0,0.05,2
+IQR rules,negative_quantity,1.0,0.05,3
+IQR rules,magnitude_shift,0.86,0.05,3
+IQR rules,sentinel_code,0.78,0.05,3
+IQR rules,impossible_age,1.0,0.05,3
+IQR rules,total_tampered,0.22,0.05,3
+Isolation Forest (plain),negative_quantity,0.06,0.05,3
+Isolation Forest (plain),magnitude_shift,0.56,0.05,3
+Isolation Forest (plain),sentinel_code,0.58,0.05,3
+Isolation Forest (plain),impossible_age,0.56,0.05,3
+Isolation Forest (plain),total_tampered,0.04,0.05,3
+Isolation Forest (oracle rate),negative_quantity,0.06,0.05,3
+Isolation Forest (oracle rate),magnitude_shift,0.54,0.05,3
+Isolation Forest (oracle rate),sentinel_code,0.58,0.05,3
+Isolation Forest (oracle rate),impossible_age,0.54,0.05,3
+Isolation Forest (oracle rate),total_tampered,0.04,0.05,3
+LOF (plain),negative_quantity,0.32,0.05,3
+LOF (plain),magnitude_shift,0.86,0.05,3
+LOF (plain),sentinel_code,0.8,0.05,3
+LOF (plain),impossible_age,0.56,0.05,3
+LOF (plain),total_tampered,0.38,0.05,3
+DataDoctor w/o relationships,negative_quantity,1.0,0.05,3
+DataDoctor w/o relationships,magnitude_shift,0.92,0.05,3
+DataDoctor w/o relationships,sentinel_code,0.96,0.05,3
+DataDoctor w/o relationships,impossible_age,1.0,0.05,3
+DataDoctor w/o relationships,total_tampered,0.0,0.05,3
+DataDoctor (combined),negative_quantity,1.0,0.05,3
+DataDoctor (combined),magnitude_shift,1.0,0.05,3
+DataDoctor (combined),sentinel_code,1.0,0.05,3
+DataDoctor (combined),impossible_age,1.0,0.05,3
+DataDoctor (combined),total_tampered,1.0,0.05,3
+IQR rules,negative_quantity,1.0,0.05,4
+IQR rules,magnitude_shift,0.9,0.05,4
+IQR rules,sentinel_code,0.84,0.05,4
+IQR rules,impossible_age,1.0,0.05,4
+IQR rules,total_tampered,0.22,0.05,4
+Isolation Forest (plain),negative_quantity,0.08,0.05,4
+Isolation Forest (plain),magnitude_shift,0.58,0.05,4
+Isolation Forest (plain),sentinel_code,0.64,0.05,4
+Isolation Forest (plain),impossible_age,0.64,0.05,4
+Isolation Forest (plain),total_tampered,0.02,0.05,4
+Isolation Forest (oracle rate),negative_quantity,0.08,0.05,4
+Isolation Forest (oracle rate),magnitude_shift,0.58,0.05,4
+Isolation Forest (oracle rate),sentinel_code,0.64,0.05,4
+Isolation Forest (oracle rate),impossible_age,0.62,0.05,4
+Isolation Forest (oracle rate),total_tampered,0.02,0.05,4
+LOF (plain),negative_quantity,0.28,0.05,4
+LOF (plain),magnitude_shift,0.9,0.05,4
+LOF (plain),sentinel_code,0.88,0.05,4
+LOF (plain),impossible_age,0.26,0.05,4
+LOF (plain),total_tampered,0.42,0.05,4
+DataDoctor w/o relationships,negative_quantity,1.0,0.05,4
+DataDoctor w/o relationships,magnitude_shift,0.88,0.05,4
+DataDoctor w/o relationships,sentinel_code,1.0,0.05,4
+DataDoctor w/o relationships,impossible_age,1.0,0.05,4
+DataDoctor w/o relationships,total_tampered,0.02,0.05,4
+DataDoctor (combined),negative_quantity,1.0,0.05,4
+DataDoctor (combined),magnitude_shift,1.0,0.05,4
+DataDoctor (combined),sentinel_code,1.0,0.05,4
+DataDoctor (combined),impossible_age,1.0,0.05,4
+DataDoctor (combined),total_tampered,1.0,0.05,4
+IQR rules,negative_quantity,1.0,0.1,0
+IQR rules,magnitude_shift,0.91,0.1,0
+IQR rules,sentinel_code,0.84,0.1,0
+IQR rules,impossible_age,1.0,0.1,0
+IQR rules,total_tampered,0.26,0.1,0
+Isolation Forest (plain),negative_quantity,0.08,0.1,0
+Isolation Forest (plain),magnitude_shift,0.49,0.1,0
+Isolation Forest (plain),sentinel_code,0.59,0.1,0
+Isolation Forest (plain),impossible_age,0.38,0.1,0
+Isolation Forest (plain),total_tampered,0.07,0.1,0
+Isolation Forest (oracle rate),negative_quantity,0.16,0.1,0
+Isolation Forest (oracle rate),magnitude_shift,0.69,0.1,0
+Isolation Forest (oracle rate),sentinel_code,0.64,0.1,0
+Isolation Forest (oracle rate),impossible_age,0.59,0.1,0
+Isolation Forest (oracle rate),total_tampered,0.12,0.1,0
+LOF (plain),negative_quantity,0.07,0.1,0
+LOF (plain),magnitude_shift,0.9,0.1,0
+LOF (plain),sentinel_code,0.85,0.1,0
+LOF (plain),impossible_age,0.23,0.1,0
+LOF (plain),total_tampered,0.2,0.1,0
+DataDoctor w/o relationships,negative_quantity,1.0,0.1,0
+DataDoctor w/o relationships,magnitude_shift,0.88,0.1,0
+DataDoctor w/o relationships,sentinel_code,0.98,0.1,0
+DataDoctor w/o relationships,impossible_age,1.0,0.1,0
+DataDoctor w/o relationships,total_tampered,0.0,0.1,0
+DataDoctor (combined),negative_quantity,1.0,0.1,0
+DataDoctor (combined),magnitude_shift,1.0,0.1,0
+DataDoctor (combined),sentinel_code,1.0,0.1,0
+DataDoctor (combined),impossible_age,1.0,0.1,0
+DataDoctor (combined),total_tampered,1.0,0.1,0
+IQR rules,negative_quantity,1.0,0.1,1
+IQR rules,magnitude_shift,0.84,0.1,1
+IQR rules,sentinel_code,0.8,0.1,1
+IQR rules,impossible_age,1.0,0.1,1
+IQR rules,total_tampered,0.26,0.1,1
+Isolation Forest (plain),negative_quantity,0.02,0.1,1
+Isolation Forest (plain),magnitude_shift,0.34,0.1,1
+Isolation Forest (plain),sentinel_code,0.59,0.1,1
+Isolation Forest (plain),impossible_age,0.49,0.1,1
+Isolation Forest (plain),total_tampered,0.05,0.1,1
+Isolation Forest (oracle rate),negative_quantity,0.07,0.1,1
+Isolation Forest (oracle rate),magnitude_shift,0.55,0.1,1
+Isolation Forest (oracle rate),sentinel_code,0.71,0.1,1
+Isolation Forest (oracle rate),impossible_age,0.74,0.1,1
+Isolation Forest (oracle rate),total_tampered,0.09,0.1,1
+LOF (plain),negative_quantity,0.15,0.1,1
+LOF (plain),magnitude_shift,0.82,0.1,1
+LOF (plain),sentinel_code,0.84,0.1,1
+LOF (plain),impossible_age,0.19,0.1,1
+LOF (plain),total_tampered,0.17,0.1,1
+DataDoctor w/o relationships,negative_quantity,1.0,0.1,1
+DataDoctor w/o relationships,magnitude_shift,0.77,0.1,1
+DataDoctor w/o relationships,sentinel_code,0.99,0.1,1
+DataDoctor w/o relationships,impossible_age,1.0,0.1,1
+DataDoctor w/o relationships,total_tampered,0.0,0.1,1
+DataDoctor (combined),negative_quantity,1.0,0.1,1
+DataDoctor (combined),magnitude_shift,1.0,0.1,1
+DataDoctor (combined),sentinel_code,1.0,0.1,1
+DataDoctor (combined),impossible_age,1.0,0.1,1
+DataDoctor (combined),total_tampered,1.0,0.1,1
+IQR rules,negative_quantity,1.0,0.1,2
+IQR rules,magnitude_shift,0.86,0.1,2
+IQR rules,sentinel_code,0.84,0.1,2
+IQR rules,impossible_age,1.0,0.1,2
+IQR rules,total_tampered,0.24,0.1,2
+Isolation Forest (plain),negative_quantity,0.03,0.1,2
+Isolation Forest (plain),magnitude_shift,0.5,0.1,2
+Isolation Forest (plain),sentinel_code,0.51,0.1,2
+Isolation Forest (plain),impossible_age,0.3,0.1,2
+Isolation Forest (plain),total_tampered,0.05,0.1,2
+Isolation Forest (oracle rate),negative_quantity,0.12,0.1,2
+Isolation Forest (oracle rate),magnitude_shift,0.69,0.1,2
+Isolation Forest (oracle rate),sentinel_code,0.74,0.1,2
+Isolation Forest (oracle rate),impossible_age,0.69,0.1,2
+Isolation Forest (oracle rate),total_tampered,0.1,0.1,2
+LOF (plain),negative_quantity,0.08,0.1,2
+LOF (plain),magnitude_shift,0.81,0.1,2
+LOF (plain),sentinel_code,0.86,0.1,2
+LOF (plain),impossible_age,0.31,0.1,2
+LOF (plain),total_tampered,0.26,0.1,2
+DataDoctor w/o relationships,negative_quantity,1.0,0.1,2
+DataDoctor w/o relationships,magnitude_shift,0.85,0.1,2
+DataDoctor w/o relationships,sentinel_code,1.0,0.1,2
+DataDoctor w/o relationships,impossible_age,1.0,0.1,2
+DataDoctor w/o relationships,total_tampered,0.0,0.1,2
+DataDoctor (combined),negative_quantity,1.0,0.1,2
+DataDoctor (combined),magnitude_shift,1.0,0.1,2
+DataDoctor (combined),sentinel_code,1.0,0.1,2
+DataDoctor (combined),impossible_age,1.0,0.1,2
+DataDoctor (combined),total_tampered,1.0,0.1,2
+IQR rules,negative_quantity,1.0,0.1,3
+IQR rules,magnitude_shift,0.9,0.1,3
+IQR rules,sentinel_code,0.8,0.1,3
+IQR rules,impossible_age,1.0,0.1,3
+IQR rules,total_tampered,0.23,0.1,3
+Isolation Forest (plain),negative_quantity,0.03,0.1,3
+Isolation Forest (plain),magnitude_shift,0.47,0.1,3
+Isolation Forest (plain),sentinel_code,0.55,0.1,3
+Isolation Forest (plain),impossible_age,0.3,0.1,3
+Isolation Forest (plain),total_tampered,0.07,0.1,3
+Isolation Forest (oracle rate),negative_quantity,0.14,0.1,3
+Isolation Forest (oracle rate),magnitude_shift,0.61,0.1,3
+Isolation Forest (oracle rate),sentinel_code,0.63,0.1,3
+Isolation Forest (oracle rate),impossible_age,0.6,0.1,3
+Isolation Forest (oracle rate),total_tampered,0.11,0.1,3
+LOF (plain),negative_quantity,0.09,0.1,3
+LOF (plain),magnitude_shift,0.81,0.1,3
+LOF (plain),sentinel_code,0.87,0.1,3
+LOF (plain),impossible_age,0.25,0.1,3
+LOF (plain),total_tampered,0.2,0.1,3
+DataDoctor w/o relationships,negative_quantity,1.0,0.1,3
+DataDoctor w/o relationships,magnitude_shift,0.86,0.1,3
+DataDoctor w/o relationships,sentinel_code,0.97,0.1,3
+DataDoctor w/o relationships,impossible_age,1.0,0.1,3
+DataDoctor w/o relationships,total_tampered,0.0,0.1,3
+DataDoctor (combined),negative_quantity,1.0,0.1,3
+DataDoctor (combined),magnitude_shift,1.0,0.1,3
+DataDoctor (combined),sentinel_code,1.0,0.1,3
+DataDoctor (combined),impossible_age,1.0,0.1,3
+DataDoctor (combined),total_tampered,1.0,0.1,3
+IQR rules,negative_quantity,1.0,0.1,4
+IQR rules,magnitude_shift,0.91,0.1,4
+IQR rules,sentinel_code,0.82,0.1,4
+IQR rules,impossible_age,1.0,0.1,4
+IQR rules,total_tampered,0.24,0.1,4
+Isolation Forest (plain),negative_quantity,0.01,0.1,4
+Isolation Forest (plain),magnitude_shift,0.51,0.1,4
+Isolation Forest (plain),sentinel_code,0.53,0.1,4
+Isolation Forest (plain),impossible_age,0.32,0.1,4
+Isolation Forest (plain),total_tampered,0.07,0.1,4
+Isolation Forest (oracle rate),negative_quantity,0.11,0.1,4
+Isolation Forest (oracle rate),magnitude_shift,0.71,0.1,4
+Isolation Forest (oracle rate),sentinel_code,0.73,0.1,4
+Isolation Forest (oracle rate),impossible_age,0.83,0.1,4
+Isolation Forest (oracle rate),total_tampered,0.11,0.1,4
+LOF (plain),negative_quantity,0.06,0.1,4
+LOF (plain),magnitude_shift,0.87,0.1,4
+LOF (plain),sentinel_code,0.88,0.1,4
+LOF (plain),impossible_age,0.23,0.1,4
+LOF (plain),total_tampered,0.23,0.1,4
+DataDoctor w/o relationships,negative_quantity,1.0,0.1,4
+DataDoctor w/o relationships,magnitude_shift,0.89,0.1,4
+DataDoctor w/o relationships,sentinel_code,1.0,0.1,4
+DataDoctor w/o relationships,impossible_age,1.0,0.1,4
+DataDoctor w/o relationships,total_tampered,0.0,0.1,4
+DataDoctor (combined),negative_quantity,1.0,0.1,4
+DataDoctor (combined),magnitude_shift,0.99,0.1,4
+DataDoctor (combined),sentinel_code,1.0,0.1,4
+DataDoctor (combined),impossible_age,1.0,0.1,4
+DataDoctor (combined),total_tampered,1.0,0.1,4
